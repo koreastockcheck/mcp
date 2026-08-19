@@ -4,7 +4,7 @@
 
 KoreaStockCheck is a remote [MCP](https://modelcontextprotocol.io) (Model Context Protocol) server that lets Claude and other MCP-capable AI assistants look up the public regulatory filing history of any company listed on the Korea Exchange (KOSPI / KOSDAQ) — in English.
 
-Ask your assistant *"Is Samsung Electronics safe to hold?"* or *"What has this KOSDAQ company actually filed?"* and it answers from ten years of official filings, with every claim linked to the original government document.
+Ask your assistant *"What has Samsung Electronics actually filed?"* or *"Show me this KOSDAQ company's dilution history"* and it answers from ten years of official filings, with every claim linked to the original government document.
 
 ## What the data is
 
@@ -30,7 +30,7 @@ https://mcp.koreastockcheck.com/mcp/<your-key>
 3. Ask about any Korean stock by name or 6-digit ticker. Example prompts:
 
 ```
-Is 삼성전자 (005930) showing any dilution red flags?
+List 삼성전자 (005930)'s capital raises from the last five years.
 Summarize the filing history of Celltrion.
 Which filings preceded this company's trading suspension?
 ```
